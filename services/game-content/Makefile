@@ -6,7 +6,12 @@ install:
 	@pip install -r requirements.txt
 
 code-format:
+	@ruff check --fix
 	@ruff format .
 
 code-check:
 	@ruff check .
+	@ruff format --check
+
+test:
+	@pytest tests
