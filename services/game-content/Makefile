@@ -10,3 +10,6 @@ code-format:
 
 code-check:
 	@ruff check .
+
+test:
+	@pytest tests
