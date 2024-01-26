@@ -15,8 +15,6 @@ Install needed requirements
 
 ## Launch local service
 
-`cd app`
-
 `make run`
 
 You can now access the service documentation (swagger) at:
