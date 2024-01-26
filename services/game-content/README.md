@@ -17,7 +17,7 @@ Install needed requirements
 
 `cd app`
 
-`uvicorn main:app --reload`
+`make run`
 
 You can now access the service documentation (swagger) at:
 
