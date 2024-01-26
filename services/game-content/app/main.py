@@ -18,6 +18,8 @@ app = FastAPI(
     lifespan=lifespan,
 )
 
+app.include_router(router=v0_router, prefix="/api")
+
 
 @app.get("/")
 async def hello_world():
