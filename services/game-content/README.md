@@ -24,6 +24,6 @@ http://127.0.0.1:8000/docs
 
 ## Run tests/linter
 
-`make tests` to run tests.
+`make test` to run tests.
 
 `make code-format` to format python files.
